@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name         = 'ASSpinnerView'
   s.version      = '0.1.1'
   s.summary      = 'iOS swift component spinner view'
- 
+  
   #s.description  = <<-DESC
   #Swift iOS Component as a Loading Indicator
   #	 DESC
