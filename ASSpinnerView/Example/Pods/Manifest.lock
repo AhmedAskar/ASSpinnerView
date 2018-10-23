@@ -1,0 +1,16 @@
+PODS:
+  - ASSpinnerView (0.1.0)
+
+DEPENDENCIES:
+  - ASSpinnerView (from `../`)
+
+EXTERNAL SOURCES:
+  ASSpinnerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ASSpinnerView: 9b1376f73e43bb1f1989bcb3c66f6fa8f8052b52
+
+PODFILE CHECKSUM: 4a01a849b1a8c4adbd1eb5e00e9bea1e3f7c9f1d
+
+COCOAPODS: 1.5.0

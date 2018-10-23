@@ -1,0 +1,6 @@
+framework module ASSpinnerView {
+  umbrella header "ASSpinnerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ASSpinnerView_Example' do
+  pod 'ASSpinnerView', :path => '../'
+
+  target 'ASSpinnerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
