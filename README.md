@@ -9,21 +9,6 @@ A Loading indicator view
 [![Swift Version](https://img.shields.io/badge/swift-4.1-orange.svg?style=flat)](https://swift.org/blog/swift-4-1-released/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
-## Example
-
-To try the example project:
-
-run `pod try ASSpinnerView` in your ternimal
-
-or
-
-clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-- iOS 9.0+
-- Xcode 9+
-- Swift 3.2+
 
 ## Installation
 
@@ -43,6 +28,22 @@ import ASSpinnerView
 
 @IBOutlet weak var spinnerView: ASSpinnerView!
 ```
+
+## Example
+
+To try the example project:
+
+run `pod try ASSpinnerView` in your ternimal
+
+or
+
+clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+- iOS 9.0+
+- Xcode 9+
+- Swift 3.2+
 
 ## Contributions
 
