@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F502B45F8B33D4060CCBF8D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0F502B45F8B33D4060CCBF8D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		22D3C4C42D2D2CD1C1EDEE0B /* Pods-ASSpinnerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASSpinnerView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASSpinnerView_Example/Pods-ASSpinnerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		49D8854E7EA535733899567C /* Pods-ASSpinnerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASSpinnerView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASSpinnerView_Tests/Pods-ASSpinnerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ASSpinnerView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASSpinnerView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* ASSpinnerView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASSpinnerView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		62FA1D0A95B427508EAE8023 /* ASSpinnerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ASSpinnerView.podspec; path = ../ASSpinnerView.podspec; sourceTree = "<group>"; };
+		62FA1D0A95B427508EAE8023 /* ASSpinnerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASSpinnerView.podspec; path = ../ASSpinnerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7D7B0B2E102588A8E68ADA2F /* Pods_ASSpinnerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASSpinnerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8A01FBDC4D35AD405DF46A /* Pods-ASSpinnerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASSpinnerView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASSpinnerView_Example/Pods-ASSpinnerView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BC5C6E1FCAB88B6801D603D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BC5C6E1FCAB88B6801D603D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BC65DF84DA3A0D49EBF0D3DA /* Pods_ASSpinnerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASSpinnerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC25F7DF6123E2C65DBBD9E3 /* Pods-ASSpinnerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASSpinnerView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASSpinnerView_Tests/Pods-ASSpinnerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
