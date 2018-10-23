@@ -7,7 +7,6 @@ import UIKit
 
 public class ASSpinnerView : UIView {
     
-//    var layerstrokeColor = UIColor.red.cgColor
     override public var layer: CAShapeLayer {
         get {
             return super.layer as! CAShapeLayer

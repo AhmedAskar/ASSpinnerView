@@ -7,12 +7,23 @@
 //
 
 import UIKit
+import ASSpinnerView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var spinnerView1: ASSpinnerView!
+    @IBOutlet weak var spinnerView2: ASSpinnerView!
+    @IBOutlet weak var spinnerView3: ASSpinnerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        spinnerView1.spinnerLineWidth = 10
+        spinnerView1.spinnerStrokeColor = UIColor.blue.cgColor
+        
+        spinnerView2.spinnerLineWidth = 3
+        spinnerView2.spinnerStrokeColor = UIColor.green.cgColor
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,29 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="Wsg-iA-vb0">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ASSpinnerView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NiH-lk-f86" customClass="ViewController" customModule="ASSpinnerView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="A6h-UR-ffd"/>
+                        <viewControllerLayoutGuide type="bottom" id="SqI-2z-zGk"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="1Hu-TM-9rA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GPk-56-V43" customClass="ASSpinnerView" customModule="ASSpinnerView">
+                                <rect key="frame" x="162" y="118" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="AHS-mU-gBa"/>
+                                    <constraint firstAttribute="height" constant="50" id="Kwl-nj-E53"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WMk-i3-oDd" customClass="ASSpinnerView" customModule="ASSpinnerView">
+                                <rect key="frame" x="150" y="252" width="75" height="75"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="Gwu-U6-j97"/>
+                                    <constraint firstAttribute="height" constant="75" id="ZA1-iE-ykO"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Nd-Sh-p7S" customClass="ASSpinnerView" customModule="ASSpinnerView">
+                                <rect key="frame" x="138" y="413" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="oC4-pO-WRz"/>
+                                    <constraint firstAttribute="height" constant="100" id="sM9-Ja-kRb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GPk-56-V43" firstAttribute="top" secondItem="A6h-UR-ffd" secondAttribute="bottom" constant="98" id="0zO-Ml-ZAa"/>
+                            <constraint firstItem="GPk-56-V43" firstAttribute="centerX" secondItem="1Hu-TM-9rA" secondAttribute="centerX" id="Qzm-zY-zaw"/>
+                            <constraint firstItem="1Nd-Sh-p7S" firstAttribute="top" secondItem="WMk-i3-oDd" secondAttribute="bottom" constant="86" id="Xvb-wX-z1d"/>
+                            <constraint firstItem="WMk-i3-oDd" firstAttribute="centerX" secondItem="1Hu-TM-9rA" secondAttribute="centerX" id="fDi-ZB-e96"/>
+                            <constraint firstItem="1Nd-Sh-p7S" firstAttribute="centerX" secondItem="1Hu-TM-9rA" secondAttribute="centerX" id="k0O-at-FTw"/>
+                            <constraint firstItem="WMk-i3-oDd" firstAttribute="top" secondItem="GPk-56-V43" secondAttribute="bottom" constant="84" id="xnw-HT-W8d"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="spinnerView1" destination="GPk-56-V43" id="ux2-WZ-1RY"/>
+                        <outlet property="spinnerView2" destination="WMk-i3-oDd" id="3nS-T3-926"/>
+                        <outlet property="spinnerView3" destination="1Nd-Sh-p7S" id="qKZ-lt-QHo"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mcE-WP-2gA" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
