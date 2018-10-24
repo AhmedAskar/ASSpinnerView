@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'ASSpinnerView'
-  s.version      = '0.1.1'
+  s.version      = '0.1.2'
   s.summary      = 'iOS swift component spinner view'
   
   #s.description  = <<-DESC
