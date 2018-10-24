@@ -27,6 +27,20 @@ To start use it, import the library in your project
 import ASSpinnerView
 
 @IBOutlet weak var spinnerView: ASSpinnerView!
+
+spinnerView1.spinnerLineWidth = 10
+spinnerView1.spinnerDuration = 0.5
+spinnerView1.spinnerStrokeColor = UIColor.blue.cgColor
+
+// Change width
+spinnerView2.spinnerLineWidth = 3
+
+// Change spinner duration ranges between (0.0 ~ 1.0)
+spinnerView2.spinnerDuration = 0.7
+
+// Change spinner color
+spinnerView2.spinnerStrokeColor = UIColor.green.cgColor
+
 ```
 
 ![screenshot_01](https://raw.githubusercontent.com/AhmedAskar/ASSpinnerView/master/Screenshots/spinner.gif)

@@ -20,11 +20,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         spinnerView1.spinnerLineWidth = 10
-//        spinnerView1.spinnerDuration = 0.5
+        spinnerView1.spinnerDuration = 0.5
         spinnerView1.spinnerStrokeColor = UIColor.blue.cgColor
         
         spinnerView2.spinnerLineWidth = 3
-//        spinnerView2.spinnerDuration = 0.7
+        spinnerView2.spinnerDuration = 0.7
         spinnerView2.spinnerStrokeColor = UIColor.green.cgColor
     }
 
