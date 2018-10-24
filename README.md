@@ -29,7 +29,7 @@ import ASSpinnerView
 @IBOutlet weak var spinnerView: ASSpinnerView!
 ```
 
-![screenshot_01](https://raw.githubusercontent.com/AhmedAskar/ASSpinnerView/master/Screenshots/screenshot_01.png)
+![screenshot_01](https://raw.githubusercontent.com/AhmedAskar/ASSpinnerView/master/Screenshots/spinner.gif)
 
 ## Example
 

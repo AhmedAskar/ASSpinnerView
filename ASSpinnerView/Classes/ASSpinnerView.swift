@@ -29,6 +29,13 @@ public class ASSpinnerView : UIView {
         }
     }
     
+    private var duration = 0.3
+    public var spinnerDuration: CFTimeInterval = 0.3 {
+        didSet{
+            duration = spinnerDuration
+        }
+    }
+    
     override public func layoutSubviews() {
         super.layoutSubviews()
         layer.fillColor = nil
@@ -56,17 +63,17 @@ public class ASSpinnerView : UIView {
         }
     }
     
-    class var poses: [Pose] {
+    private var poses: [Pose] {
         get {
             return [
                 Pose(0.0, 0.000, 0.7),
-                Pose(0.3, 0.500, 0.5),
-                Pose(0.3, 1.000, 0.3),
-                Pose(0.3, 1.500, 0.1),
-                Pose(0.3, 1.875, 0.1),
-                Pose(0.3, 2.250, 0.3),
-                Pose(0.3, 2.625, 0.5),
-                Pose(0.3, 3.000, 0.7),
+                Pose(duration, 0.500, 0.5),
+                Pose(duration, 1.000, 0.3),
+                Pose(duration, 1.500, 0.1),
+                Pose(duration, 1.875, 0.1),
+                Pose(duration, 2.250, 0.3),
+                Pose(duration, 2.625, 0.5),
+                Pose(duration, 3.000, 0.7),
             ]
         }
     }
@@ -78,7 +85,7 @@ public class ASSpinnerView : UIView {
         var rotations = [CGFloat]()
         var strokeEnds = [CGFloat]()
         
-        let poses = type(of: self).poses
+        let poses = self.poses
         let totalSeconds = poses.reduce(0) { $0 + $1.secondsSincePriorPose }
         
         for pose in poses {

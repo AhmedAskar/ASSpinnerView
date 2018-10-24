@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #	 DESC
 
   s.homepage     = 'https://github.com/AhmedAskar/ASSpinnerView'
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+   s.screenshots  = 'https://raw.githubusercontent.com/AhmedAskar/ASSpinnerView/master/Screenshots/spinner.gif'
   s.license = 'MIT'
   s.author             = { 'Ahmed Askar' => 'ahmedaskar1989@gmail.com' }
   s.source       = { :git => 'https://github.com/AhmedAskar/ASSpinnerView.git', :tag => s.version.to_s }
